@@ -54,7 +54,7 @@ public class RouteToGateway {
 
         for (int src : nonGateways) {
             System.out.println("Forwarding table for " + (src + 1));
-            System.out.println("\tTo\tCost\tNext Hop");
+            System.out.println("\tTo\tCost\tNext Hop"); // using tab instead of spaces for nice format
 
             for (int gi = 0; gi < numOfGateways; gi++) {
                 int gw = gateways[gi];
